@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  height: 435px;
+}
+
+header nav {
+  margin: 60px auto 0;
+}
+
+header .top-content {
+  background-color: #e5e5e5;
+  width: 1110px;
+  margin: 125px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .top-content h1 {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
+.top-text {
+  width: 540px;
+  height: 140px;
+}
+
+p {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.social_top {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+}
+
+.social_top a {
+  display: flex;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #e5e5e5;
+}
+
+.main-content {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.gallary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content p {
+  margin: 43px auto 145px;
+}
+
+.content-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-text p {
+  width: 540px;
+  height: 87px;
+}
+
+.content-text button {
+  width: 160px;
+  height: 50px;
+  margin-top: 46px;
+  background-color: #ef8e70;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+}
+
+.awards {
+  height: 500px;
+  background-color: #e5e5e5;
+}
+
+.content-awards {
+  width: 1110px;
+  display: flex;
+  padding: 62px 165px;
+}
+
+.awards-category :first-child {
+  margin-bottom: 151px;
+  margin-right: 95px;
+}
+
+.awards-text {
+  display: flex;
+  margin-left: 385px;
+}
+
+.awards-descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.awards-descriptions :nth-child(1n + 1) {
+  margin-bottom: 13px;
+}
+
+.awards-descriptions :nth-child(2) {
+  margin-bottom: 59px;
+}
+
+.awards-descriptions h6 {
+  width: 230px;
+  height: 84px;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.awards-descriptions h3 {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.awards-descriptions h2 {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.awards-year {
+  display: flex;
+  flex-direction: column;
+}
+
+.awards-year h5 {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 115px;
+}
+
+.awards-year :first-child {
+  margin-bottom: 155px;
+}
+
+.clients {
+  background-color: white;
+  height: 480px;
+}
+
+.content-clients {
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  margin: 125px auto 0;
+}
+
+.content-clients h3 {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.content-clients h4 {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.content-clients ul {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.clients-text {
+  display: flex;
+  margin-bottom: 76px;
+}
+
+.clients-text p {
+  width: 445px;
+  height: 81px;
+}
+
+footer {
+  width: 100%;
+  height: 240px;
+  background-color: #515151;
+}
+
+.footer-text {
+  margin-left: 40px;
+  width: 1110px;
+}
+
+.menu_footer {
+  display: inline;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 114px;
+}
+
+.footer_logo {
+  margin: 70px auto auto 125px;
+}
+
+.menu_footer a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  margin-right: 60px;
+}
+
+.line {
+  margin: 42px 125px 37px 125px;
+  width: 1108px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.footer_info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 125px;
+}
+
+.footer_info a {
+  display: flex;
+  position: relative;
+  color: rgb(231, 226, 226);
+  text-decoration: none;
+  margin-right: 43px;
+}
+
+.footer_info a:nth-child(5) {
+  margin-left: 600px;
+  margin-right: 20px;
+}
+
+.footer_info a:nth-child(6) {
+  margin-right: 20px;
+}
+
+.footer_info a:nth-child(7) {
+  margin-right: 20px;
+}
